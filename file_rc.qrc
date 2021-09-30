@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="Close_image">
+    <file>Images/cil-x.png</file>
+  </qresource>
+  <qresource prefix="allback">
+    <file>Images/pattern-randomized.svg</file>
+    <file>Images/alternating-arrowhead.svg</file>
+    <file>Images/scattered-forcefields.svg</file>
+  </qresource>
+  <qresource prefix="left_side">
+    <file>Images/8219589_navigation_search_find_telescope_view_icon.svg</file>
+  </qresource>
+  <qresource prefix="login_image">
+    <file>Images/7900070_books_test_check_student_evaluation_icon.svg</file>
+  </qresource>
+  <qresource prefix="Logo">
+    <file>Images/logo_360x90.png</file>
+  </qresource>
+</RCC>
