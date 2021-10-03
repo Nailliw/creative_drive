@@ -1,6 +1,11 @@
 <RCC>
   <qresource prefix="Close_image">
-    <file>Images/cil-x.png</file>
+    <file>Images/7900076_online_learning_education_school_laptop_icon.svg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>Images/account_avatar_man_profile_user_icon.svg</file>
+    <file>Images/avatar_dead_monster_zombie_icon.svg</file>
+    <file>Images/arrow_left_logout_ui_logout icon_icon.svg</file>
   </qresource>
   <qresource prefix="allback">
     <file>Images/pattern-randomized.svg</file>
@@ -14,6 +19,6 @@
     <file>Images/7900070_books_test_check_student_evaluation_icon.svg</file>
   </qresource>
   <qresource prefix="Logo">
-    <file>Images/logo_360x90.png</file>
+    <file>Images/sign_up_icon.svg</file>
   </qresource>
 </RCC>

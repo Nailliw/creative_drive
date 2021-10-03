@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>577</width>
-    <height>487</height>
+    <width>720</width>
+    <height>600</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>720</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -166,6 +178,12 @@
                 </property>
                 <item>
                  <widget class="QFrame" name="frame_9">
+                  <property name="minimumSize">
+                   <size>
+                    <width>40</width>
+                    <height>30</height>
+                   </size>
+                  </property>
                   <property name="maximumSize">
                    <size>
                     <width>25</width>
@@ -173,7 +191,11 @@
                    </size>
                   </property>
                   <property name="styleSheet">
-                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   <string notr="true">background-image: url(:/icons/Images/account_avatar_man_profile_user_icon.svg) 100%;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+</string>
                   </property>
                   <property name="frameShape">
                    <enum>QFrame::StyledPanel</enum>
@@ -185,6 +207,9 @@
                 </item>
                 <item>
                  <widget class="QFrame" name="frame_8">
+                  <property name="styleSheet">
+                   <string notr="true">background: transparent;</string>
+                  </property>
                   <property name="frameShape">
                    <enum>QFrame::NoFrame</enum>
                   </property>
@@ -210,10 +235,18 @@
                  </widget>
                 </item>
                </layout>
+               <zorder>frame_8</zorder>
+               <zorder>frame_9</zorder>
               </widget>
              </item>
              <item>
               <widget class="QFrame" name="logout_icon">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="maximumSize">
                 <size>
                  <width>25</width>
@@ -221,7 +254,11 @@
                 </size>
                </property>
                <property name="styleSheet">
-                <string notr="true">background-color: rgb(255, 255, 255);</string>
+                <string notr="true">background-image: url(:/icons/Images/arrow_left_logout_ui_logout icon_icon.svg);
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+</string>
                </property>
                <property name="frameShape">
                 <enum>QFrame::StyledPanel</enum>
@@ -240,7 +277,7 @@
        <item>
         <widget class="QFrame" name="frame_2">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(162, 162, 162);</string>
+          <string notr="true">background-color: rgb(247, 247, 247);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -260,12 +297,14 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>577</width>
+     <width>720</width>
      <height>21</height>
     </rect>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="file_rc.qrc"/>
+ </resources>
  <connections/>
 </ui>
