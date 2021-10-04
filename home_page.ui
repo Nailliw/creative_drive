@@ -141,42 +141,6 @@
              <property name="bottomMargin">
               <number>0</number>
              </property>
-             <item>
-              <widget class="QFrame" name="frame_9">
-               <property name="frameShape">
-                <enum>QFrame::NoFrame</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton">
-               <property name="minimumSize">
-                <size>
-                 <width>30</width>
-                 <height>30</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>30</width>
-                 <height>30</height>
-                </size>
-               </property>
-               <property name="layoutDirection">
-                <enum>Qt::RightToLeft</enum>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset resource="file_rc.qrc">
-                 <normaloff>:/icons/icon_menu.png</normaloff>:/icons/icon_menu.png</iconset>
-               </property>
-              </widget>
-             </item>
             </layout>
            </widget>
           </item>
@@ -255,14 +219,14 @@
                   <property name="frameShadow">
                    <enum>QFrame::Raised</enum>
                   </property>
-                  <layout class="QHBoxLayout" name="horizontalLayout_4">
+                  <layout class="QVBoxLayout" name="verticalLayout_4">
                    <item>
                     <widget class="QLabel" name="label">
                      <property name="text">
                       <string>Anima Lee</string>
                      </property>
                      <property name="alignment">
-                      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      <set>Qt::AlignCenter</set>
                      </property>
                     </widget>
                    </item>
@@ -270,21 +234,21 @@
                     <widget class="QPushButton" name="logoutButton">
                      <property name="minimumSize">
                       <size>
-                       <width>30</width>
+                       <width>100</width>
                        <height>30</height>
                       </size>
                      </property>
                      <property name="maximumSize">
                       <size>
-                       <width>30</width>
+                       <width>16777215</width>
                        <height>30</height>
                       </size>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">color: rgb(238, 238, 236);</string>
+                      <string notr="true">color: rgb(0, 0, 0);</string>
                      </property>
                      <property name="text">
-                      <string/>
+                      <string>Logout</string>
                      </property>
                      <property name="icon">
                       <iconset resource="file_rc.qrc">
@@ -456,7 +420,7 @@
      <x>0</x>
      <y>0</y>
      <width>720</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

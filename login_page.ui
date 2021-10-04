@@ -211,9 +211,7 @@
                   <property name="styleSheet">
                    <string notr="true">background-image: url(:/login_image/Images/7900070_books_test_check_student_evaluation_icon.svg);
 background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
-</string>
+background-position:center;</string>
                   </property>
                   <property name="frameShape">
                    <enum>QFrame::NoFrame</enum>
@@ -415,7 +413,7 @@ border: 1px solid black;</string>
      <x>0</x>
      <y>0</y>
      <width>300</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

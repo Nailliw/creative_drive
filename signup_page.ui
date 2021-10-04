@@ -195,7 +195,6 @@
                   <property name="styleSheet">
                    <string notr="true">background-image: url(:/Close_image/Images/7900076_online_learning_education_school_laptop_icon.svg);
 background-repeat:no-repeat;
-background-size:contain;
 background-position:center;
 </string>
                   </property>
@@ -417,7 +416,7 @@ background-color: rgb(87, 68, 227);</string>
      <x>0</x>
      <y>0</y>
      <width>300</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
