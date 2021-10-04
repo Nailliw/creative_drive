@@ -67,7 +67,7 @@
        <string notr="true"/>
       </property>
       <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
@@ -130,7 +130,7 @@
              </size>
             </property>
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
@@ -152,33 +152,32 @@
               <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frame_9">
-               <property name="maximumSize">
-                <size>
-                 <width>16777215</width>
-                 <height>20</height>
-                </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-              </widget>
-             </item>
-             <item>
               <widget class="QFrame" name="frame_7">
                <property name="styleSheet">
                 <string notr="true">background-color: rgb(255, 255, 255);</string>
                </property>
                <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
+                <enum>QFrame::NoFrame</enum>
                </property>
                <property name="frameShadow">
                 <enum>QFrame::Raised</enum>
                </property>
                <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
                 <item>
                  <widget class="QFrame" name="frame_10">
                   <property name="minimumSize">
@@ -201,17 +200,39 @@ background-position:center;
 </string>
                   </property>
                   <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
+                   <enum>QFrame::NoFrame</enum>
                   </property>
                   <property name="frameShadow">
                    <enum>QFrame::Raised</enum>
                   </property>
+                  <widget class="QFrame" name="frame_9">
+                   <property name="geometry">
+                    <rect>
+                     <x>30</x>
+                     <y>30</y>
+                     <width>292</width>
+                     <height>10</height>
+                    </rect>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
                  </widget>
                 </item>
                 <item>
                  <widget class="QFrame" name="frame_11">
                   <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
+                   <enum>QFrame::NoFrame</enum>
                   </property>
                   <property name="frameShadow">
                    <enum>QFrame::Raised</enum>
@@ -233,7 +254,7 @@ background-position:center;
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QTextEdit" name="textEdit">
+                    <widget class="QTextEdit" name="email">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -256,7 +277,7 @@ border: 1px solid black;</string>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QTextEdit" name="textEdit_3">
+                    <widget class="QTextEdit" name="name">
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
@@ -273,10 +294,10 @@ border: 1px solid black;</string>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QTextEdit" name="textEdit_2">
+                    <widget class="QLineEdit" name="password">
                      <property name="minimumSize">
                       <size>
-                       <width>1</width>
+                       <width>0</width>
                        <height>30</height>
                       </size>
                      </property>
@@ -296,7 +317,46 @@ border: 1px solid black;</string>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="pushButton_2">
+                    <widget class="QLineEdit" name="confirm_password">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-radius: 5px;
+border: 1px solid black;</string>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Confirm password</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="error_message">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(204, 0, 0);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="registerButton">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -357,7 +417,7 @@ background-color: rgb(87, 68, 227);</string>
      <x>0</x>
      <y>0</y>
      <width>300</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

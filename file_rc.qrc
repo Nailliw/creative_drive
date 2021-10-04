@@ -3,6 +3,8 @@
     <file>Images/7900076_online_learning_education_school_laptop_icon.svg</file>
   </qresource>
   <qresource prefix="icons">
+    <file>icon_menu.png</file>
+    <file>menu_icon.svg</file>
     <file>Images/account_avatar_man_profile_user_icon.svg</file>
     <file>Images/avatar_dead_monster_zombie_icon.svg</file>
     <file>Images/arrow_left_logout_ui_logout icon_icon.svg</file>
